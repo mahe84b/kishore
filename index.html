@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	  <title>Bootstrap 4 Example</title>
+	  <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <!-- Boostrap css-->
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+	  <!-- Fonts icons-->
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	  <!-- coustam  css-->
+	  <link rel="stylesheet" type="text/css" href="css/main.css">
+
+	</head>
+	<body>
+
+	<!-- Sticky Header html start-->
+		<div class="sticky-header header-section ">
+	       <div class="header-left"> 
+			    <!--logo -->
+			    <div class="logo"> <a href="#"><img src="assets/images/logo.jpg"></a> </div>
+			    <!--//logo--> 
+		    	<div class="clearfix"> </div>
+	  		</div>
+	      	<div class="header-right">
+		    	<div class="profile_details_left"><!--notifications of menu start -->
+		          <ul class="nofitications-dropdown">
+			        <li class="dropdown head-dpdn"> 
+				        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+				        <i class="fa fa-bell"></i><span class="badge blue">3</span></a>
+			            <ul class="dropdown-menu">
+				            <li>
+				                <div class="notification_header">
+				                	<h3>You have 2 new notification</h3>
+				              	</div>
+				            </li>
+				            <li>
+				            	<a href="#">
+						            
+						            <div class="notification_desc">
+						                <p>Lorem ipsum dolor amet</p>
+						                <p><span>1 hour ago</span></p>
+						            </div>
+						            <div class="clearfix"></div>
+				              	</a>
+				            </li>
+				            <li class="odd">
+				            	<a href="#">
+						            
+						            <div class="notification_desc">
+						                <p>Lorem ipsum dolor amet </p>
+						                <p><span>1 hour ago</span></p>
+						            </div>
+						            <div class="clearfix"></div>
+				              	</a>
+				             </li>       
+				            <li>
+				                <div class="notification_bottom"> <a href="#">See all notifications</a> </div>
+				            </li>
+			          	</ul>
+			        </li>
+			        <li class="dropdown head-dpdn"> 
+			        	<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+			        		<i class="fa fa-cog"></i><!-- <span class="badge">3</span> -->
+			        	</a>
+			            <!-- <ul class="dropdown-menu" style="margin-left: -60px;">
+				            <li>
+				                <div class="notification_header">
+				                <h3>You have 3 new messages</h3>
+				              </div>
+				            </li>
+			            	<li>
+			            		<a href="#">
+			           
+					              <div class="notification_desc">
+					                <p>Lorem ipsum dolor amet</p>
+					                <p><span>1 hour ago</span></p>
+					              </div>
+					              <div class="clearfix"></div>
+			              		</a>
+			              	</li>
+			            	<li class="odd">
+			            		<a href="#">
+			              
+					              <div class="notification_desc">
+					                <p>Lorem ipsum dolor amet </p>
+					                <p><span>1 hour ago</span></p>
+					              </div>
+			              			<div class="clearfix"></div>
+			              		</a>
+			              	</li>
+			            	<li>
+				            	<a href="#">
+						            <div class="notification_desc">
+						                <p>Lorem ipsum dolor amet </p>
+						                <p><span>1 hour ago</span></p>
+						            </div>
+				              		<div class="clearfix"></div>
+				              	</a>
+			              	</li>
+			            	<li>
+			                  <div class="notification_bottom"> <a href="#">See all messages</a> </div>
+			                </li>
+			            </ul> -->
+			        </li>
+		      
+		      		</ul>
+		          <div class="clearfix"> </div>
+		        </div>
+			    <!--notification menu end -->
+			    <div class="profile_details">
+			         <ul>
+			        <li class="dropdown profile_details_drop">
+			        	<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+			          		<div class="profile_img">
+			          	 <span class="prfil-img"><img  style="width: 40px" src="assets/images/person.png" alt=""> 
+			            <div class="clearfix"></div>
+			          </div>
+			          </a>
+			              <ul class="dropdown-menu drp-mnu" style="margin-left: -100px;">
+			            <li> <a href="#"><i class="fa fa-cog"></i> Settings</a> </li>
+			            <li> <a href="#"><i class="fa fa-user"></i> Profile</a> </li>
+			            <li> <a href="#"><i class="fa fa-sign-out"></i> Logout</a> </li>
+			          </ul>
+			            </li>
+			      </ul>
+		        </div>
+		    	<div class="clearfix"> </div>
+	  		</div>
+	      	<div class="clearfix"> </div>
+	    </div>
+	<!-- Sticky Header html end-->
+	<!-- nav headr html  start -->
+		
+		<header>
+			
+			<nav class="navbar navbar-expand-md header-nav">
+  
+				<!-- Toggler/collapsibe Button -->
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				    <span class="navbar-toggler-icon"></span>
+				</button>
+
+				<!-- Navbar links -->
+				<div class="collapse navbar-collapse lists " id="collapsibleNavbar">
+				    <ul class="navbar-nav topnav">
+				      <li class="nav-item ">
+				        <a class="nav-link  active" href="#">Home</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link main-menu" href="#">Permission</a>
+				      </li>
+				       
+				    </ul>
+				</div> 
+			</nav>
+		</header>
+	<!-- nav Header Ends-->
+	<!-- place selection html start-->
+	<div class="main-section">
+		<div class="main-inner">
+			<div class="select-position">
+				<select class="slect-item item-two">
+					<option>USA</option>
+				</select>
+			</div>
+			<div class="select-position">
+				<select class="slect-item">
+					<option>Colombia</option>
+					<option>Colombia</option>
+				</select>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+
+	<!-- place selection html end-->
+	<!-- population part  html start-->
+	<div class="population">
+		<div class="population-inner">
+			<div class="inner-one">
+				<select class="slect-item-two select-one">
+					<option>Population with insurance coverage</option>
+					<option>Population with out insurance coverage</option>
+				</select>
+				<select class="slect-item-two ">
+					<option>2017</option>
+					<option>2018</option>
+				</select>
+				<select class="slect-item-two ">
+					<option>All Age</option>
+					<option>All Age</option>
+					<option>All Age</option>
+				</select>
+				<select class="slect-item-two ">
+					<option>Both Gender</option>
+					<option>Both Gender</option>
+					<option>Both Gender</option>
+				</select>
+				<select class="slect-item-two">
+					<option>All Races</option>
+					<option>All Races</option>
+					<option>All Races</option>
+				</select>
+				<select class="slect-item-two select-last">
+					<option>All Income Level</option>
+					<option>All Income Level</option>
+					<option>All Income Level</option>
+				</select>
+			 </div>
+		</div>
+		<!-- location on map html start -->
+		<div class="locations">
+			<div class="locations-inner">
+				<div class="location-inner-right">
+					<img src="assets/images/map.png" alt="" />
+					<div class="clearfix"></div>
+				</div>
+				<div class="location-left">
+					<div class="location-heding">
+						<h3>Colombia</h3>
+					</div>
+					<div id="pie"></div> 
+
+					<div class="data-location">
+						
+						<ul class="list-inline list-data">
+							<li>
+								<span class="box box-one"></span> <span spa>Insured</span>
+								<ul class="list-inline ">
+									<li class="span-text">61240</li>
+								</ul>
+							</li>
+							<li>
+								<span class="box box-two"></span>
+								<span> Uninsured</span>
+								<ul class="list-inline ">
+									<li class="span-text">4682</li>
+								</ul>
+							</li>
+							<li>
+								<span class="box box-three"></span>
+								<span> Moe</span>
+								<ul class="list-inline ">
+									<li class="span-text">430</li>
+								</ul>
+							</li>
+							<div class="clearfix"></div>
+						</ul>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="clearfix"></div>
+			
+		</div>
+		<!-- location on map html end -->
+		<!-- bar charts html start-->
+		<div class="bar-charts">
+			<div class="bar-inner">
+				<div class="row" style="margin-left: 0px;margin-right: 0px">
+					<div class="col-sm-6" style="padding-left: 0px;">
+			
+						<div class="charts-box ">
+							<!-- <div id="chart_div" style="width: 100%; height: 500px;"> </div> -->
+							<div class="age-inner">
+								<h3>Age</h3>
+								 <a href="#" class="dropdown-toggle pull-right" data-toggle="dropdown" aria-expanded="false">
+					        		<i class="fa fa-expand" style="color: #000;"></i>
+					        	</a>
+					        	<div class="clearfix"></div>
+							</div>
+							<div class="charts-inner-two">
+								<ul class="list-inline list-data" style="">
+									<li style="margin: 2%;">
+									<span class="box box-four"></span> <span spa>Moe</span>
+									</li>
+									
+								</ul>
+								<select class="slect-item-two pull-right" style="width:20%;margin-top: 10px;">
+									<option> Insured</option>
+									<option> Insured</option>
+									<option> Insured</option>
+								</select>
+								<div class="clearfix"></div>
+							</div>
+							<div class="chart-img">
+								<img src="assets/images/age.jpg" alt="">
+							</div>
+						</div>	
+					</div>
+					<div class="col-sm-6" style="padding-right: 0px;">
+						<div class="charts-box">
+							<!-- <div id="chart_div" style="width: 100%; height: 500px;"> </div> -->
+							<div class="age-inner">
+								<h3>Gender</h3>
+								 <a href="#" class="dropdown-toggle pull-right" data-toggle="dropdown" aria-expanded="false">
+					        		<i class="fa fa-expand" style="color: #000;"></i>
+					        	</a>
+					        	<div class="clearfix"></div>
+							</div>
+							<div class="charts-inner-two">
+								<ul class="list-inline list-data" style="">
+									<li style="margin: 2%;">
+									<span class="box box-four"></span> <span spa>Moe</span>
+									</li>
+									
+								</ul>
+								<select class="slect-item-two pull-right" style="width:20%;margin-top: 10px;">
+									<option> Insured</option>
+									<option> Insured</option>
+									<option> Insured</option>
+								</select>
+								<div class="clearfix"></div>
+							</div>
+							<div class="chart-img">
+								<img src="assets/images/gender.jpg" alt="">
+							</div>
+						</div>
+
+					</div>
+					<div class="col-sm-6" style="padding-left: 0px;margin-top: 20px;margin-bottom: 20px;">
+			
+						<div class="charts-box">
+							
+							<div class="age-inner">
+								<h3>Income</h3>
+								 <a href="#" class="dropdown-toggle pull-right" data-toggle="dropdown" aria-expanded="false">
+					        		<i class="fa fa-expand" style="color: #000;"></i>
+					        	</a>
+					        	<div class="clearfix"></div>
+							</div>
+							<div class="charts-inner-two">
+								<ul class="list-inline list-data" style="">
+									<li style="margin: 2%;">
+									<span class="box box-four"></span> <span spa>Moe</span>
+									</li>
+									
+								</ul>
+								<select class="slect-item-two pull-right" style="width:20%;margin-top: 10px;">
+									<option> Insured</option>
+									<option> Insured</option>
+									<option> Insured</option>
+								</select>
+								<div class="clearfix"></div>
+							</div>
+							<div class="chart-img">
+								<img src="assets/images/income.jpg" alt="">
+							</div>
+						</div>	
+					</div>
+					<div class="col-sm-6" style="padding-right: 0px; margin-top: 20px;">
+						<div class="charts-box">
+							<!-- <div id="chart_div" style="width: 100%; height: 500px;"> </div> -->
+							<div class="age-inner">
+								<h3>Race</h3>
+								 <a href="#" class="dropdown-toggle pull-right" data-toggle="dropdown" aria-expanded="false">
+					        		<i class="fa fa-expand" style="color: #000;"></i>
+					        	</a>
+					        	<div class="clearfix"></div>
+							</div>
+							<div class="charts-inner-two">
+								<ul class="list-inline list-data" style="">
+									<li style="margin: 2%;">
+									<span class="box box-four"></span> <span spa>Moe</span>
+									</li>
+									
+								</ul>
+								<select class="slect-item-two pull-right" style="width:20%;margin-top: 10px;">
+									<option> Insured</option>
+									<option> Insured</option>
+									<option> Insured</option>
+								</select>
+								<div class="clearfix"></div>
+							</div>
+							<div class="chart-img">
+								<img src="assets/images/race.jpg" alt="">
+							</div>
+						</div>
+
+					</div>
+					<div class="col-sm-6" style="padding-left: 0px;margin-top: 20px;margin-bottom: 20px;">
+			
+						<div id="chart_div" style="width: 100%; height: 300px;"> </div>
+					</div>
+					<div class="col-sm-6" style="padding-right: 0px; margin-top: 20px;">
+						
+						<div id="chartDiv" style="width: 100%; height: 300px;"> </div>
+					</div>
+				</div>
+			</div>
+			<!-- charts-->
+			
+		</div>
+		<!-- bar charts html start-->
+	</div>
+
+	<!-- population part  html end-->
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+	  <!-- <script src="js/fontawesome-all.min.js"></script> -->
+	<script src="https://code.jquery.com/jquery-3.2.0.min.js"></script>
+	<script src="js/jquery.rotapie.js"></script>
+    <script>
+        $(function(){
+            $('#pie').rotapie({
+                slices: [
+                    { color: '#f1c660', percentage: 10 },  
+                    { color: '#fe8373', percentage: 30 }, 
+                    { color: '#008fd1', percentage: 60 }
+                ],
+                sliceIndex: 0, 
+                deltaAngle: 0.2,
+                minRadius: 100, 
+                maxRadius: 110, 
+                minInnerRadius: 55, 
+                maxInnerRadius: 65, 
+                innerColor: '#fff', 
+                minFontSize: 30, 
+                maxFontSize: 40,
+                fontYOffset: 0, 
+                fontFamily: 'Times New Roman', 
+                fontWeight: 'bold', 
+                decimalPoint: '.',
+                clickable: true 
+                
+            });
+        });
+    </script>
+    <script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-36251023-1']);
+	  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+
+	<!-- charts-->
+	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['bar']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+         ['Element', 'Density', { role: 'style' }],
+         ['Copper', 8.94, '#b87333'],            // RGB value
+         ['Silver', 10.49, 'silver'],            // English color name
+         ['Gold', 19.30, 'gold'],
+
+       ['Platinum', 21.45, 'color: #e5e4e2' ], // CSS-style declaration
+      ]);
+        var options = {
+          bars: 'vertical' // Required for Material Bar Charts.
+
+        };
+
+        var chart = new google.charts.Bar(document.getElementById('barchart_material'));
+
+        chart.draw(data, google.charts.Bar.convertOptions(options));
+      }
+    </script>
+    <script type="text/javascript">
+    	google.charts.load('current', {packages: ['corechart', 'bar']});
+		google.charts.setOnLoadCallback(drawStacked);
+
+		function drawStacked() {
+	      var data = new google.visualization.DataTable();
+	      data.addColumn('timeofday', 'Time of Day');
+	      data.addColumn('number', 'Motivation Level');
+	      data.addColumn('number', 'Energy Level');
+
+	      data.addRows([
+	        [{v: [8, 0, 0], f: '0-64'}, 1, .25],
+	        [{v: [9, 0, 0], f: '9 am'}, 2, .5],
+	        [{v: [10, 0, 0], f:'10 am'}, 3, 1],
+	        [{v: [11, 0, 0], f: '11 am'}, 4, 2.25],
+	        [{v: [12, 0, 0], f: '12 pm'}, 5, 2.25],
+	        [{v: [13, 0, 0], f: '1 pm'}, 6, 3],
+	        [{v: [14, 0, 0], f: '2 pm'}, 7, 4],
+	        [{v: [15, 0, 0], f: '3 pm'}, 8, 5.25],
+	        [{v: [16, 0, 0], f: '4 pm'}, 9, 7.5],
+	        [{v: [17, 0, 0], f: '5 pm'}, 10, 10],
+	      ]);
+
+	      var options = {
+	        isStacked: true,
+	      };
+
+	      var chart = new google.visualization.ColumnChart(document.getElementById('chart_div'));
+	      var charttwo = new google.visualization.ColumnChart(document.getElementById('chartDiv'));
+	      chart.draw(data, options);
+	      charttwo.draw(data, options);
+		}
+    </script>
+	</body>
+</html>
